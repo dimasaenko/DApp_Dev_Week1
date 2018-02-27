@@ -1,0 +1,172 @@
+{
+  "contractName": "SimpleAuction",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820baa65a8e1294ef4ee63f3280f28f46f288259d2b3b790225ea7da637d71ed23e0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820baa65a8e1294ef4ee63f3280f28f46f288259d2b3b790225ea7da637d71ed23e0029",
+  "sourceMap": "26:87:1:-;;;56:55;;;;;;;;26:87;;;;;;",
+  "deployedSourceMap": "26:87:1:-;;;;;",
+  "source": "pragma solidity ^0.4.19;\n\ncontract SimpleAuction {\n\n    function SimpleAuction() {\n        // constructor\n    }\n}\n",
+  "sourcePath": "/Users/dim/eth/week1/contracts/SimpleAuction.sol",
+  "ast": {
+    "absolutePath": "/Users/dim/eth/week1/contracts/SimpleAuction.sol",
+    "exportedSymbols": {
+      "SimpleAuction": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".19"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "SimpleAuction",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "81:30:1",
+              "statements": []
+            },
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "SimpleAuction",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "78:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "81:0:1"
+            },
+            "scope": 63,
+            "src": "56:55:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:87:1"
+      }
+    ],
+    "src": "0:114:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/dim/eth/week1/contracts/SimpleAuction.sol",
+    "exportedSymbols": {
+      "SimpleAuction": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".19"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "SimpleAuction",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "81:30:1",
+              "statements": []
+            },
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "SimpleAuction",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "78:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "81:0:1"
+            },
+            "scope": 63,
+            "src": "56:55:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:87:1"
+      }
+    ],
+    "src": "0:114:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-02-27T14:25:29.386Z"
+}
